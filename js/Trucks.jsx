@@ -16,7 +16,55 @@ const Trucks = () => {
                     </div>
                 </div>
 
-                <div className="uk-width-1-5"></div>
+                <div className="uk-width-1-5 trucks_search_filter_container">
+
+                    <div className="">
+
+                        <div className="">
+                            <h3>SEARCH</h3>
+                        </div>
+
+                        <div className="">
+
+                            <form>
+                                <select class="uk-select car_filter_select_container">
+                                    <option>Year</option>
+                                </select>
+
+                                <select class="uk-select car_filter_select_container">
+                                    <option>Make</option>
+                                </select>
+
+                                <select class="uk-select car_filter_select_container">
+                                    <option>Model</option>
+                                </select>
+
+                                <select class="uk-select car_filter_select_container">
+                                    <option>GVW</option>
+                                </select>
+
+                                <select class="uk-select car_filter_select_container">
+                                    <option>Engines</option>
+                                </select>
+
+                                <select class="uk-select car_filter_select_container">
+                                    <option>Milage</option>
+                                </select>
+
+                                <select class="uk-select car_filter_select_container">
+                                    <option>Price</option>
+                                </select>
+
+                                <select class="uk-select car_filter_select_container">
+                                    <option>Category</option>
+                                </select>
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+
                 <div className="uk-width-4-5 trucks_list_container">
 
                     <div className="uk-card uk-card-default uk-card-body trucks_card_container">
@@ -42,7 +90,6 @@ const Trucks = () => {
                         <button className="uk-button uk-button-primary truck_view_details_btn">
                             View
                         </button>
-
                     </div>
 
                     <div className="uk-card uk-card-default uk-card-body trucks_card_container">
@@ -68,7 +115,6 @@ const Trucks = () => {
                         <button className="uk-button uk-button-primary truck_view_details_btn">
                             View
                         </button>
-
                     </div>
 
                     <div className="uk-card uk-card-default uk-card-body trucks_card_container">
@@ -94,7 +140,6 @@ const Trucks = () => {
                         <button className="uk-button uk-button-primary truck_view_details_btn">
                             View
                         </button>
-
                     </div>
 
                     <div className="uk-card uk-card-default uk-card-body trucks_card_container">
@@ -120,11 +165,12 @@ const Trucks = () => {
                         <button className="uk-button uk-button-primary truck_view_details_btn">
                             View
                         </button>
-
                     </div>
 
                 </div>
+
             </div>
+
         </div>
     )
 }

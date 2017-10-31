@@ -34,6 +34,7 @@ html, body, #app {
     padding-left: 0px !important;
     overflow: hidden;
     margin-top: -35px !important;
+    margin-bottom: 20px !important;
 }
 
 .hero_img_container_img {
@@ -126,4 +127,12 @@ html, body, #app {
 
 .details_thumb_imgs_container {
     margin-top: 20px !important;
+}
+
+.car_filter_select_container {
+    margin-bottom: 20px !important;
+}
+
+.trucks_search_filter_container {
+    padding-left: 60px !important;
 }

@@ -16,7 +16,7 @@ const Details = () => {
 
 
                 <div className="uk-width-1-1">
-                    <div className="uk-card uk-card-default uk-card-body no_shadow no_padding_bottom">
+                    <div className="uk-card uk-card-default uk-card-body no_shadow no_padding_bottom no_padding_top">
                         <h1 class="uk-heading-bullet">Heading Bullet</h1>
                     </div>
                 </div>
