@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 // import store from './store'
 import Landing from './Landing'
 import Trucks from './Trucks'
+import Details from './Details'
 
 const App = () => {
     return(
@@ -13,6 +14,7 @@ const App = () => {
                     <Switch>
                         <Route exact path='/' component={Landing} />
                         <Route path='/trucks' component={Trucks} />
+                        <Route path='/details' component={Details} />
                     </Switch>
                 </div>
 
