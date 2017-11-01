@@ -86,17 +86,41 @@ const Trucks = (props) => {
                                     </div>
 
                                     <ul class="uk-list uk-list-divider trucks_card_props_list">
-                                        <li>List item 1</li>
-                                        <li>List item 2</li>
-                                        <li>List item 3</li>
-                                        <li>List item 3</li>
+                                        <li>
+                                            <span className="trucks_card_list_item_title">Stock Number</span>
+                                            <span className="trucks_card_list_item_data">{truck.stock_number}</span>
+                                        </li>
+                                        <li>
+                                            <span className="trucks_card_list_item_title">Year</span>
+                                            <span className="trucks_card_list_item_data">{truck.year}</span>
+                                        </li>
+                                        <li>
+                                            <span className="trucks_card_list_item_title">Make</span>
+                                            <span className="trucks_card_list_item_data">{truck.make}</span>
+                                        </li>
+                                        <li>
+                                            <span className="trucks_card_list_item_title">Model</span>
+                                            <span className="trucks_card_list_item_data">{truck.model}</span>
+                                        </li>
                                     </ul>
 
                                     <ul class="uk-list uk-list-divider trucks_card_props_list">
-                                        <li>List item 1</li>
-                                        <li>List item 2</li>
-                                        <li>List item 3</li>
-                                        <li>List item 3</li>
+                                        <li>
+                                            <span className="trucks_card_list_item_title">Vin Number</span>
+                                            <span className="trucks_card_list_item_data">{truck.vin_number}</span>
+                                        </li>
+                                        <li>
+                                            <span className="trucks_card_list_item_title">Engine Mfr</span>
+                                            <span className="trucks_card_list_item_data">{truck.engine_mfr}</span>
+                                        </li>
+                                        <li>
+                                            <span className="trucks_card_list_item_title">GVW</span>
+                                            <span className="trucks_card_list_item_data">{truck.gvw}</span>
+                                        </li>
+                                        <li>
+                                            <span className="trucks_card_list_item_title">Milage</span>
+                                            <span className="trucks_card_list_item_data">{truck.milage}</span>
+                                        </li>
                                     </ul>
                                 </div>
 

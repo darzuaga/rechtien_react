@@ -157,3 +157,11 @@ html, body, #app {
 .trucks_card_props_list>li::after, .trucks_card_props_list>li::before {
     display: none !important;
 }
+
+.trucks_card_list_item_data {
+    float: right;
+}
+
+.trucks_card_list_item_title {
+    font-weight: bold;
+}

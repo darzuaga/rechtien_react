@@ -10,7 +10,8 @@
         "transmission": "Automatic",
         "vin_number": "3HAWGSTR7HL484142",
         "engine_mfr": "Navistar",
-        "gvw": "54,000"
+        "gvw": "54,000",
+        "make": "INTERNATIONAL"
     },
     "1": {
         "title": "2017 AUDI A4 PRESTIGE",
@@ -23,7 +24,8 @@
         "transmission": "Automatic",
         "vin_number": "3HAWGSTR7HL484142",
         "engine_mfr": "Navistar",
-        "gvw": "54,000"
+        "gvw": "54,000",
+        "make": "INTERNATIONAL"
     },
     "2": {
         "title": "2017 AUDI A4 PRESTIGE",
@@ -36,7 +38,8 @@
         "transmission": "Automatic",
         "vin_number": "3HAWGSTR7HL484142",
         "engine_mfr": "Navistar",
-        "gvw": "54,000"
+        "gvw": "54,000",
+        "make": "INTERNATIONAL"
     },
     "3": {
         "title": "2017 AUDI A4 PRESTIGE",
@@ -49,7 +52,8 @@
         "transmission": "Automatic",
         "vin_number": "3HAWGSTR7HL484142",
         "engine_mfr": "Navistar",
-        "gvw": "54,000"
+        "gvw": "54,000",
+        "make": "INTERNATIONAL"
     },
     "4": {
         "title": "2017 AUDI A4 PRESTIGE",
@@ -62,6 +66,7 @@
         "transmission": "Automatic",
         "vin_number": "3HAWGSTR7HL484142",
         "engine_mfr": "Navistar",
-        "gvw": "54,000"
+        "gvw": "54,000",
+        "make": "INTERNATIONAL"
     }
 }
