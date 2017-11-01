@@ -71,10 +71,11 @@ html, body, #app {
 .trucks_card_container {
     margin-bottom: 10px !important;
     padding: 20px !important;
+    padding-bottom: 0px !important;
 }
 
 .trucks_card_container img {
-    width: 250px;
+    width: 300px;
 }
 
 .truck_card_img_container {
@@ -97,6 +98,7 @@ html, body, #app {
 
 .truck_card_main_container {
     margin-right: 150px;
+    margin-left: 250px;
 }
 
 .truck_view_details_btn {
@@ -135,4 +137,23 @@ html, body, #app {
 
 .trucks_search_filter_container {
     padding-left: 60px !important;
+}
+
+.trucks_card_props_list {
+    width: 40%;
+    float: left;
+    margin-right: 20px;
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+.trucks_card_props_list li {
+    padding: 0px !important;
+    margin: 0px !important;
+    padding-bottom: 2px !important;
+    padding-top: 2px !important;
+}
+
+.trucks_card_props_list>li::after, .trucks_card_props_list>li::before {
+    display: none !important;
 }
