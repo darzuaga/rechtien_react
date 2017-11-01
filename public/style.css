@@ -165,3 +165,8 @@ html, body, #app {
 .trucks_card_list_item_title {
     font-weight: bold;
 }
+
+.truck_prop_list_ul_container {
+    height: 530px;
+    overflow: scroll;
+}

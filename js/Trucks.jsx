@@ -124,9 +124,9 @@ const Trucks = (props) => {
                                     </ul>
                                 </div>
 
-                                <button className="uk-button uk-button-primary truck_view_details_btn">
+                                <Link className="uk-button uk-button-primary truck_view_details_btn" to={`/details/${truck.id}`}>
                                     View
-                                </button>
+                                </Link>
                             </div>
                         )
                     })}
