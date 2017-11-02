@@ -18,7 +18,7 @@ class Details extends Component {
             <div className='uk-height-1-1'>
                 <Nav />
 
-                {this.props.trucks.filter(truck => truck.id == this.props.match.params.id).map(truck => {
+                {this.props.all_results.filter(truck => truck.id == this.props.match.params.id).map(truck => {
                     return(
                         <div className="truck_container">
                             <div className="uk-grid">
@@ -224,7 +224,7 @@ class Details extends Component {
 
 const mapStateToProps = state => {
     return {
-        trucks: state.trucks,
+        all_results: state.all_results,
         active_truck_img: state.active_truck_img
     }
 }
