@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Nav from './Nav'
 import {connect} from 'react-redux'
-import {filterSearchResults} from './actionCreators'
+import {filterSearchResults, resetSearch} from './actionCreators'
 import _ from 'lodash'
 
 const Trucks = (props) => {
@@ -72,6 +72,8 @@ const Trucks = (props) => {
                                 </select>
                             </form>
 
+
+                            <button className="uk-button uk-button-primary uk-width-1-1" onClick={props.resetSearch}>Reset Search</button>
                         </div>
 
                     </div>
@@ -163,6 +165,10 @@ const mapDispatchToProps = dispatch => ({
             filter_value: event.target.value
         }
         dispatch(filterSearchResults(payload))
+    },
+
+    resetSearch(){
+        dispatch(resetSearch())
     }
 })
 

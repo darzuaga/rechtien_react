@@ -5,7 +5,8 @@ import {
     LOAD_TRUCKS,
     LOAD_TRUCK,
     CHANGE_ACTIVE_TRUCK_IMG,
-    FILTER_SEARCH_RESULTS
+    FILTER_SEARCH_RESULTS,
+    RESET_SEARCH
 } from './actions'
 
 const DEFAULT_STATE = {
@@ -28,6 +29,8 @@ const rootReducer = (state = DEFAULT_STATE, action) => {
             let { filter_type, filter_value } = action.payload
             let filteredResults = state.all_results.filter(truck => truck[filter_type] == filter_value)
             return {...state, filtered_results: filteredResults}
+        case RESET_SEARCH:
+            return {...state, filtered_results: state.all_results}
         default:
             return state
     }
